@@ -1,0 +1,186 @@
+{
+    "RESULTS": {
+        "GISS-E2-H.historical": {
+            "forced": {
+                "Land_30N50N": {
+                    "annual": 1.154266721510137,
+                    "semi-annual": 0.3692551744241903
+                },
+                "Land_30S30N": {
+                    "annual": 6.8655960795131294,
+                    "semi-annual": 1.1969126049181855
+                },
+                "Land_50S30S": {
+                    "annual": 0.7829928891110198,
+                    "semi-annual": 0.33398811326967975
+                },
+                "Land_50S50N": {
+                    "annual": 4.803117924524398,
+                    "semi-annual": 0.8989181591887316
+                },
+                "Ocean_30N50N": {
+                    "annual": 1.4467988289024762,
+                    "semi-annual": 0.37232162338162866
+                },
+                "Ocean_30S30N": {
+                    "annual": 4.568654517465613,
+                    "semi-annual": 1.5044899979603008
+                },
+                "Ocean_50S30S": {
+                    "annual": 0.5918242629787758,
+                    "semi-annual": 0.1927211439124904
+                },
+                "Ocean_50S50N": {
+                    "annual": 3.3099973296409195,
+                    "semi-annual": 1.0764366904440072
+                },
+                "Total_30N50N": {
+                    "annual": 1.3110986682307972,
+                    "semi-annual": 0.3708991551953958
+                },
+                "Total_30S30N": {
+                    "annual": 5.155704413930364,
+                    "semi-annual": 1.4258796929688142
+                },
+                "Total_50S30S": {
+                    "annual": 0.6055533541116551,
+                    "semi-annual": 0.20286646501255923
+                },
+                "Total_50S50N": {
+                    "annual": 3.6979701926949535,
+                    "semi-annual": 1.030310226813203
+                }
+            },
+            "unforced": {
+                "Land_30N50N": {
+                    "interannual": 0.11027519561502575,
+                    "seasonal-annual": 0.15034540027412407,
+                    "sub-seasonal": 0.13605316533174094,
+                    "synoptic": 0.06277267344693233
+                },
+                "Land_30S30N": {
+                    "interannual": 0.31262787817502063,
+                    "seasonal-annual": 0.30924523792899317,
+                    "sub-seasonal": 0.243897137677461,
+                    "synoptic": 0.07552274806731542
+                },
+                "Land_50S30S": {
+                    "interannual": 0.1527755501819138,
+                    "seasonal-annual": 0.2041066189679213,
+                    "sub-seasonal": 0.17203311677473293,
+                    "synoptic": 0.07133658627473073
+                },
+                "Land_50S50N": {
+                    "interannual": 0.24222527413177844,
+                    "seasonal-annual": 0.25493923345176356,
+                    "sub-seasonal": 0.20701576396034696,
+                    "synoptic": 0.07136923241812429
+                },
+                "Ocean_30N50N": {
+                    "interannual": 0.13240454583620145,
+                    "seasonal-annual": 0.17549307553001822,
+                    "sub-seasonal": 0.15428702961801613,
+                    "synoptic": 0.09824822890957895
+                },
+                "Ocean_30S30N": {
+                    "interannual": 0.6531055721473543,
+                    "seasonal-annual": 0.6376662281993245,
+                    "sub-seasonal": 0.43458496427824367,
+                    "synoptic": 0.11441802205292609
+                },
+                "Ocean_50S30S": {
+                    "interannual": 0.09839333071364982,
+                    "seasonal-annual": 0.13364245158376373,
+                    "sub-seasonal": 0.12036603745194574,
+                    "synoptic": 0.06906461136148313
+                },
+                "Ocean_50S50N": {
+                    "interannual": 0.46681841351291453,
+                    "seasonal-annual": 0.4697785382523058,
+                    "sub-seasonal": 0.3309051790489744,
+                    "synoptic": 0.10250804393167526
+                },
+                "Total_30N50N": {
+                    "interannual": 0.12213915511604374,
+                    "seasonal-annual": 0.1638275404092277,
+                    "sub-seasonal": 0.14582868179640485,
+                    "synoptic": 0.08179178377228893
+                },
+                "Total_30S30N": {
+                    "interannual": 0.5660866430211011,
+                    "seasonal-annual": 0.5537287386607875,
+                    "sub-seasonal": 0.38584917112064354,
+                    "synoptic": 0.10447720904161961
+                },
+                "Total_50S30S": {
+                    "interannual": 0.10229887976839695,
+                    "seasonal-annual": 0.13870295233219931,
+                    "sub-seasonal": 0.12407659422553256,
+                    "synoptic": 0.06922777699836948
+                },
+                "Total_50S50N": {
+                    "interannual": 0.4084600708535113,
+                    "seasonal-annual": 0.4139546346334961,
+                    "sub-seasonal": 0.29871371960574444,
+                    "synoptic": 0.09441692664589409
+                }
+            }
+        }
+    },
+    "YAML": "name: xCDAT_cdat\nchannels:\n  - conda-forge\n  - defaults\ndependencies:\n  - _libgcc_mutex=0.1=conda_forge\n  - _openmp_mutex=4.5=2_gnu\n  - anyio=3.6.1=pyhd8ed1ab_1\n  - argon2-cffi=21.3.0=pyhd8ed1ab_0\n  - argon2-cffi-bindings=21.2.0=py310h5764c6d_2\n  - asttokens=2.0.5=pyhd8ed1ab_0\n  - attrs=22.1.0=pyh71513ae_0\n  - babel=2.10.3=pyhd8ed1ab_0\n  - backcall=0.2.0=pyh9f0ad1d_0\n  - backports=1.0=py_2\n  - backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0\n  - beautifulsoup4=4.11.1=pyha770c72_0\n  - bleach=5.0.1=pyhd8ed1ab_0\n  - bokeh=2.4.3=py310hff52083_0\n  - brotli=1.0.9=h166bdaf_7\n  - brotli-bin=1.0.9=h166bdaf_7\n  - brotlipy=0.7.0=py310h5764c6d_1004\n  - bzip2=1.0.8=h7f98852_4\n  - c-ares=1.18.1=h7f98852_0\n  - ca-certificates=2022.6.15=ha878542_0\n  - cartopy=0.20.3=py310he7eef42_1\n  - cdat_info=8.2.1=pyhd8ed1ab_2\n  - cdms2=3.1.5=py310h65abc81_14\n  - cdp=1.7.0=pyhd8ed1ab_1\n  - cdtime=3.1.4=py310h1a17f1e_7\n  - cdutil=8.2.1=pyhd8ed1ab_1\n  - certifi=2022.6.15=py310hff52083_0\n  - cf_xarray=0.7.4=pyhd8ed1ab_0\n  - cffi=1.15.1=py310h255011f_0\n  - cftime=1.6.1=py310hde88566_0\n  - charset-normalizer=2.1.0=pyhd8ed1ab_0\n  - click=8.1.3=py310hff52083_0\n  - cloudpickle=2.1.0=pyhd8ed1ab_0\n  - cryptography=37.0.4=py310h597c629_0\n  - curl=7.83.1=h7bff187_0\n  - cycler=0.11.0=pyhd8ed1ab_0\n  - cytoolz=0.12.0=py310h5764c6d_0\n  - dask=2022.7.1=pyhd8ed1ab_0\n  - dask-core=2022.7.1=pyhd8ed1ab_0\n  - debugpy=1.6.0=py310hd8f1fbe_0\n  - decorator=5.1.1=pyhd8ed1ab_0\n  - defusedxml=0.7.1=pyhd8ed1ab_0\n  - distarray=2.12.2=pyhd8ed1ab_2\n  - distributed=2022.7.1=pyhd8ed1ab_0\n  - enso_metrics=1.1.1=py310hff52083_1\n  - entrypoints=0.4=pyhd8ed1ab_0\n  - eofs=1.4.0=py_0\n  - esmf=8.2.0=nompi_hc924415_1\n  - esmpy=8.2.0=nompi_py310ha0140b2_1\n  - executing=0.9.1=pyhd8ed1ab_0\n  - expat=2.4.8=h27087fc_0\n  - flit-core=3.7.1=pyhd8ed1ab_0\n  - fonttools=4.34.4=py310h5764c6d_0\n  - freeglut=3.2.2=h9c3ff4c_1\n  - freetype=2.10.4=h0708190_1\n  - fsspec=2022.7.1=pyhd8ed1ab_0\n  - future=0.18.2=py310hff52083_5\n  - g2clib=1.6.3=heb9ad7a_1\n  - genutil=8.2.1=py310h96516ba_2\n  - geos=3.11.0=h27087fc_0\n  - giflib=5.2.1=h36c2ea0_2\n  - hdf4=4.2.15=h10796ff_3\n  - hdf5=1.12.2=nompi_h2386368_100\n  - heapdict=1.0.1=py_0\n  - icu=70.1=h27087fc_0\n  - idna=3.3=pyhd8ed1ab_0\n  - importlib-metadata=4.11.4=py310hff52083_0\n  - importlib_metadata=4.11.4=hd8ed1ab_0\n  - importlib_resources=5.9.0=pyhd8ed1ab_0\n  - ipykernel=6.15.1=pyh210e3f2_0\n  - ipython=8.4.0=py310hff52083_0\n  - ipython_genutils=0.2.0=py_1\n  - jasper=2.0.33=ha77e612_0\n  - jedi=0.18.1=pyhd8ed1ab_2\n  - jinja2=3.1.2=pyhd8ed1ab_1\n  - jpeg=9e=h166bdaf_2\n  - json5=0.9.5=pyh9f0ad1d_0\n  - jsonschema=4.8.0=pyhd8ed1ab_0\n  - jupyter_client=7.3.4=pyhd8ed1ab_0\n  - jupyter_core=4.11.1=py310hff52083_0\n  - jupyter_server=1.18.1=pyhd8ed1ab_0\n  - jupyterlab=3.4.5=pyhd8ed1ab_0\n  - jupyterlab_pygments=0.2.2=pyhd8ed1ab_0\n  - jupyterlab_server=2.15.0=pyhd8ed1ab_0\n  - keyutils=1.6.1=h166bdaf_0\n  - kiwisolver=1.4.4=py310hbf28c38_0\n  - krb5=1.19.3=h3790be6_0\n  - lazy-object-proxy=1.7.1=py310h5764c6d_1\n  - lcms2=2.12=hddcbb42_0\n  - ld_impl_linux-64=2.36.1=hea4e1c9_2\n  - lerc=4.0.0=h27087fc_0\n  - libblas=3.9.0=15_linux64_openblas\n  - libbrotlicommon=1.0.9=h166bdaf_7\n  - libbrotlidec=1.0.9=h166bdaf_7\n  - libbrotlienc=1.0.9=h166bdaf_7\n  - libcblas=3.9.0=15_linux64_openblas\n  - libcdms=3.1.2=h2973bc7_118\n  - libcf=1.0.3=py310hbc577d2_114\n  - libcurl=7.83.1=h7bff187_0\n  - libdeflate=1.12=h166bdaf_0\n  - libdrs=3.1.2=hf593df3_118\n  - libdrs_f=3.1.2=h7e76ec7_114\n  - libedit=3.1.20191231=he28a2e2_2\n  - libev=4.33=h516909a_1\n  - libffi=3.4.2=h7f98852_5\n  - libgcc-ng=12.1.0=h8d9b700_16\n  - libgfortran-ng=12.1.0=h69a702a_16\n  - libgfortran5=12.1.0=hdcd56e2_16\n  - libglu=9.0.0=he1b5a44_1001\n  - libgomp=12.1.0=h8d9b700_16\n  - libiconv=1.16=h516909a_0\n  - liblapack=3.9.0=15_linux64_openblas\n  - libllvm11=11.1.0=hf817b99_3\n  - libnetcdf=4.8.1=nompi_h21705cb_103\n  - libnghttp2=1.47.0=h727a467_0\n  - libnsl=2.0.0=h7f98852_0\n  - libopenblas=0.3.20=pthreads_h78a6416_1\n  - libpng=1.6.37=h753d276_3\n  - libsodium=1.0.18=h36c2ea0_1\n  - libssh2=1.10.0=ha56f1ee_2\n  - libstdcxx-ng=12.1.0=ha89aaad_16\n  - libtiff=4.4.0=h0d92c0b_2\n  - libuuid=2.32.1=h7f98852_1000\n  - libwebp=1.2.3=h522a892_1\n  - libwebp-base=1.2.3=h166bdaf_2\n  - libxcb=1.13=h7f98852_1004\n  - libxml2=2.9.14=h22db469_4\n  - libxslt=1.1.35=h8affb1d_0\n  - libzip=1.9.2=hc869a4a_0\n  - libzlib=1.2.12=h166bdaf_2\n  - llvmlite=0.38.1=py310h58363a5_0\n  - locket=1.0.0=pyhd8ed1ab_0\n  - lxml=4.9.1=py310h5764c6d_0\n  - lz4=4.0.0=py310h5d5e884_2\n  - lz4-c=1.9.3=h9c3ff4c_1\n  - markupsafe=2.1.1=py310h5764c6d_1\n  - matplotlib-base=3.5.2=py310h5701ce4_1\n  - matplotlib-inline=0.1.3=pyhd8ed1ab_0\n  - mistune=0.8.4=py310h6acc77f_1005\n  - msgpack-python=1.0.4=py310hbf28c38_0\n  - munkres=1.1.4=pyh9f0ad1d_0\n  - nb_conda=2.2.1=unix_6\n  - nb_conda_kernels=2.3.1=py310hff52083_1\n  - nbclassic=0.4.3=pyhd8ed1ab_0\n  - nbclient=0.6.6=pyhd8ed1ab_0\n  - nbconvert=6.5.3=pyhd8ed1ab_0\n  - nbconvert-core=6.5.3=pyhd8ed1ab_0\n  - nbconvert-pandoc=6.5.3=pyhd8ed1ab_0\n  - nbformat=5.4.0=pyhd8ed1ab_0\n  - ncurses=6.3=h27087fc_1\n  - nest-asyncio=1.5.5=pyhd8ed1ab_0\n  - netcdf-fortran=4.5.4=nompi_hc402ea5_101\n  - netcdf4=1.6.0=nompi_py310h9fd08d4_101\n  - notebook=6.4.12=pyha770c72_0\n  - notebook-shim=0.1.0=pyhd8ed1ab_0\n  - numba=0.55.2=py310ha5257ce_0\n  - numpy=1.22.4=py310h4ef5377_0\n  - openblas=0.3.20=pthreads_h320a7e8_1\n  - openjpeg=2.4.0=hb52868f_1\n  - openssl=1.1.1q=h166bdaf_0\n  - output_viewer=1.3.3=pyhd8ed1ab_1\n  - packaging=21.3=pyhd8ed1ab_0\n  - pandas=1.4.3=py310h769672d_0\n  - pandoc=2.19=ha770c72_0\n  - pandocfilters=1.5.0=pyhd8ed1ab_0\n  - parso=0.8.3=pyhd8ed1ab_0\n  - partd=1.2.0=pyhd8ed1ab_0\n  - patsy=0.5.2=pyhd8ed1ab_0\n  - pcmdi_metrics=2.4.0=pyhd8ed1ab_0\n  - pexpect=4.8.0=pyh9f0ad1d_2\n  - pickleshare=0.7.5=py_1003\n  - pillow=9.2.0=py310he619898_0\n  - pip=22.2.1=pyhd8ed1ab_0\n  - proj=9.0.1=h93bde94_1\n  - prometheus_client=0.14.1=pyhd8ed1ab_0\n  - prompt-toolkit=3.0.30=pyha770c72_0\n  - psutil=5.9.1=py310h5764c6d_0\n  - pthread-stubs=0.4=h36c2ea0_1001\n  - ptyprocess=0.7.0=pyhd3deb0d_0\n  - pure_eval=0.2.2=pyhd8ed1ab_0\n  - pycparser=2.21=pyhd8ed1ab_0\n  - pygments=2.12.0=pyhd8ed1ab_0\n  - pyopenssl=22.0.0=pyhd8ed1ab_0\n  - pyparsing=3.0.9=pyhd8ed1ab_0\n  - pyproj=3.3.1=py310hf94497c_1\n  - pyrsistent=0.18.1=py310h5764c6d_1\n  - pyshp=2.3.1=pyhd8ed1ab_0\n  - pysocks=1.7.1=py310hff52083_5\n  - python=3.10.5=h582c2e5_0_cpython\n  - python-dateutil=2.8.2=pyhd8ed1ab_0\n  - python-fastjsonschema=2.16.1=pyhd8ed1ab_0\n  - python_abi=3.10=2_cp310\n  - pytz=2022.1=pyhd8ed1ab_0\n  - pyyaml=6.0=py310h5764c6d_4\n  - pyzmq=23.2.1=py310h330234f_0\n  - readline=8.1.2=h0f457ee_0\n  - requests=2.28.1=pyhd8ed1ab_0\n  - scipy=1.8.1=py310hdfbd76f_2\n  - seaborn=0.11.2=hd8ed1ab_0\n  - seaborn-base=0.11.2=pyhd8ed1ab_0\n  - send2trash=1.8.0=pyhd8ed1ab_0\n  - setuptools=63.2.0=py310hff52083_0\n  - shapely=1.8.2=py310h5e49deb_3\n  - six=1.16.0=pyh6c4a22f_0\n  - sniffio=1.2.0=py310hff52083_3\n  - sortedcontainers=2.4.0=pyhd8ed1ab_0\n  - soupsieve=2.3.2.post1=pyhd8ed1ab_0\n  - sparse=0.13.0=pyhd8ed1ab_0\n  - sqlite=3.39.2=h4ff8645_0\n  - stack_data=0.3.0=pyhd8ed1ab_0\n  - statsmodels=0.13.2=py310hde88566_0\n  - tblib=1.7.0=pyhd8ed1ab_0\n  - terminado=0.15.0=py310hff52083_0\n  - tinycss2=1.1.1=pyhd8ed1ab_0\n  - tk=8.6.12=h27826a3_0\n  - toolz=0.12.0=pyhd8ed1ab_0\n  - tornado=6.1=py310h5764c6d_3\n  - traitlets=5.3.0=pyhd8ed1ab_0\n  - typing_extensions=4.3.0=pyha770c72_0\n  - tzdata=2022a=h191b570_0\n  - udunits2=2.2.28=hc3e0081_0\n  - unicodedata2=14.0.0=py310h5764c6d_1\n  - urllib3=1.26.11=pyhd8ed1ab_0\n  - wcwidth=0.2.5=pyh9f0ad1d_2\n  - webencodings=0.5.1=py_1\n  - websocket-client=1.3.3=pyhd8ed1ab_0\n  - wheel=0.37.1=pyhd8ed1ab_0\n  - xarray=2022.6.0=pyhd8ed1ab_1\n  - xcdat=0.3.0=pyhd8ed1ab_1\n  - xesmf=0.6.3=pyhd8ed1ab_1\n  - xorg-fixesproto=5.0=h7f98852_1002\n  - xorg-inputproto=2.3.2=h7f98852_1002\n  - xorg-kbproto=1.0.7=h7f98852_1002\n  - xorg-libx11=1.7.2=h7f98852_0\n  - xorg-libxau=1.0.9=h7f98852_0\n  - xorg-libxdmcp=1.1.3=h7f98852_0\n  - xorg-libxext=1.3.4=h7f98852_1\n  - xorg-libxfixes=5.0.3=h7f98852_1004\n  - xorg-libxi=1.7.10=h7f98852_0\n  - xorg-xextproto=7.3.0=h7f98852_1002\n  - xorg-xproto=7.0.31=h7f98852_1007\n  - xz=5.2.5=h516909a_1\n  - yaml=0.2.5=h7f98852_2\n  - zeromq=4.3.4=h9c3ff4c_1\n  - zict=2.2.0=pyhd8ed1ab_0\n  - zipp=3.8.0=pyhd8ed1ab_0\n  - zlib=1.2.12=h166bdaf_2\n  - zstd=1.5.2=h8a70e8d_2\nprefix: /home/ahn6/anaconda3/envs/xCDAT_cdat\n",
+    "json_structure": [
+        "model+realization",
+        "variability type",
+        "domain",
+        "frequency"
+    ],
+    "json_version": 3.0,
+    "provenance": {
+        "commandLine": "./code/variability_across_timescales_PS_driver.py -p basic_precip_variability_param.py --mod pr.day.GISS-E2-H.historical.r6i1p1.20000101-20051231.nc",
+        "conda": {
+            "Platform": "linux-64",
+            "PythonVersion": "3.8.8.final.0",
+            "Version": "4.13.0",
+            "buildVersion": "3.21.4"
+        },
+        "date": "2022-08-18 11:41:48",
+        "history": "",
+        "openGL": {
+            "GLX": {
+                "client": {},
+                "server": {}
+            }
+        },
+        "osAccess": false,
+        "packages": {
+            "PMP": "2.0",
+            "PMPObs": "See 'References' key below, for detailed obs provenance information.",
+            "blas": "0.3.20",
+            "cdat_info": "8.2.1",
+            "cdms": "3.1.5",
+            "cdp": "1.7.0",
+            "cdtime": "3.1.4",
+            "cdutil": "8.2.1",
+            "clapack": null,
+            "esmf": "0.6.3",
+            "esmpy": "8.2.0",
+            "genutil": "8.2.1",
+            "lapack": "3.9.0",
+            "matplotlib": null,
+            "mesalib": null,
+            "numpy": "1.22.4",
+            "python": "3.10.5",
+            "scipy": "1.8.1",
+            "uvcdat": null,
+            "vcs": null,
+            "vtk": null
+        },
+        "platform": {
+            "Name": "gates.llnl.gov",
+            "OS": "Linux",
+            "Version": "3.10.0-1160.71.1.el7.x86_64"
+        },
+        "script": "#!/usr/bin/env python\n\nimport glob\nimport os\n\nfrom genutil import StringConstructor\n\nfrom pcmdi_metrics.driver.pmp_parser import PMPParser\nfrom pcmdi_metrics.precip_variability.lib import (\n    AddParserArgument,\n    # precip_variability_across_timescale,\n)\nwith open('./code/lib_variability_across_timescales.py') as source_file:\n    exec(source_file.read())\n\n# Read parameters\nP = PMPParser()\nP = AddParserArgument(P)\nparam = P.get_parameter()\nmip = param.mip\nmod = param.mod\nvar = param.var\ndfrq = param.frq\nmodpath = param.modpath\nprd = param.prd\nfac = param.fac\nnperseg = param.nperseg\nnoverlap = param.noverlap\nprint(modpath)\nprint(mod)\nprint(prd)\nprint(nperseg, noverlap)\n\n# Get flag for CMEC output\ncmec = param.cmec\n\n# Create output directory\ncase_id = param.case_id\noutdir_template = param.process_templated_argument(\"results_dir\")\noutdir = StringConstructor(\n    str(outdir_template(output_type=\"%(output_type)\", mip=mip, case_id=case_id))\n)\nfor output_type in [\"graphics\", \"diagnostic_results\", \"metrics_results\"]:\n    if not os.path.exists(outdir(output_type=output_type)):\n        try:\n            os.makedirs(outdir(output_type=output_type))\n        except FileExistsError:\n            pass\n    print(outdir(output_type=output_type))\n\n# Check data in advance\nfile_list = sorted(glob.glob(os.path.join(modpath, \"*\" + mod + \"*\")))\ndata = []\nfor file in file_list:\n    if mip == \"obs\":\n        model = file.split(\"/\")[-1].split(\".\")[2]\n        data.append(model)\n    else:\n        model = file.split(\"/\")[-1].split(\".\")[2]\n        ens = file.split(\"/\")[-1].split(\".\")[3]\n        data.append(model + \".\" + ens)\n\nprint(\"Number of datasets:\", len(file_list))\nprint(\"Dataset:\", data)\n\n# Regridding -> Anomaly -> Power spectra -> Domain&Frequency average -> Write\nsyr = prd[0]\neyr = prd[1]\n\nfor dat, file in zip(data, file_list):\n    precip_variability_across_timescale(\n        file, syr, eyr, dfrq, mip, dat, var, fac, nperseg, noverlap, outdir, cmec\n    )\n",
+        "userId": "ahn6"
+    }
+}
