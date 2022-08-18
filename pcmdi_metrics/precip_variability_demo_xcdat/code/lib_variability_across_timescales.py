@@ -30,7 +30,6 @@ def precip_variability_across_timescale(
     psdmfm = {"RESULTS": {}}
 
     f = xcdat.open_dataset(file)
-    print(f.keys())
     cal = f.time.encoding["calendar"]   
     if "360" in cal:
         ldy = 30
