@@ -5,7 +5,7 @@ import sys
 
 # import cdms2 as cdms
 import cdutil
-import genutil
+# import genutil
 # import MV2 as MV
 import numpy as np
 import pandas as pd
@@ -259,7 +259,8 @@ def Powerspectrum(d, nperseg, noverlap):
 
 # ==================================================================================
 def lag1_autocorrelation(x):
-    result = float(genutil.statistics.autocorrelation(x, lag=1)[-1])
+    lag = 1
+    result = float(np.corrcoef(x[:-lag], x[lag:])[0,1])
     return result
 
 
