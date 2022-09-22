@@ -171,7 +171,7 @@ def ClimAnom(d, ntd, syr, eyr, cal):
 
 
     # Climatology
-    clim = np.average(dseg, axis=0, weights=None)
+    clim = np.nanmean(dseg, axis=0)
 
     # Anomaly
     anom = np.array([])
@@ -405,22 +405,22 @@ def Avg_PS_DomFrq(d, frequency, ntd, dat, mip, frc):
                 amfm = np.amax(am[idx1 : idx2 + 1])
             elif frq == "sub-daily":  # pr<1day
                 idx1 = prdday_to_frqidx(1, frequency, ntd)
-                amfm = np.average(am[idx1 + 1 :], weights=None)
+                amfm = np.nanmean(am[idx1 + 1 :])
             elif frq == "synoptic":  # 1day=<pr<20day
                 idx2 = prdday_to_frqidx(1, frequency, ntd)
                 idx1 = prdday_to_frqidx(20, frequency, ntd)
-                amfm = np.average(am[idx1 + 1 : idx2 + 1], weights=None)
+                amfm = np.nanmean(am[idx1 + 1 : idx2 + 1])
             elif frq == "sub-seasonal":  # 20day=<pr<90day
                 idx2 = prdday_to_frqidx(20, frequency, ntd)
                 idx1 = prdday_to_frqidx(90, frequency, ntd)
-                amfm = np.average(am[idx1 + 1 : idx2 + 1], weights=None)
+                amfm = np.nanmean(am[idx1 + 1 : idx2 + 1])
             elif frq == "seasonal-annual":  # 90day=<pr<365day
                 idx2 = prdday_to_frqidx(90, frequency, ntd)
                 idx1 = prdday_to_frqidx(365, frequency, ntd)
-                amfm = np.average(am[idx1 + 1 : idx2 + 1], weights=None)
+                amfm = np.nanmean(am[idx1 + 1 : idx2 + 1])
             elif frq == "interannual":  # 365day=<pr
                 idx2 = prdday_to_frqidx(365, frequency, ntd)
-                amfm = np.average(am[: idx2 + 1], weights=None)
+                amfm = np.nanmean(am[: idx2 + 1])
             psdmfm[dom][frq] = amfm.tolist()
 
     print("Complete domain and frequency average of spectral power")
